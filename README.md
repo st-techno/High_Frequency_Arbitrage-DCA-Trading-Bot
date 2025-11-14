@@ -1,4 +1,5 @@
-Core Institutional-Grade Features
+# Core Institutional-Grade Features
+
 Dynamic Risk Management: Allocates dynamic position sizes per level and enforces stop-out on drawdowns.​
 
 DCA-Driven Hedging: Executes layered BitMEX positions based on funding arbitrage or EMA crossovers.​
@@ -10,8 +11,6 @@ Backtesting Engine: Modular compatibility with backtesting.py for parameter opti
 Logging & Monitoring: File-based trade logs mirror compliance-grade audit trails per execution and exception.​
 
 Async Execution Loop: Utilizes event-driven asynchronous logic for high reliability under low-latency perps markets.
-
-## Core Institutional Features
 
 Cross-exchange funding-rate arbitrage: Opens a long on the exchange with lower funding and short on the one with higher funding.​
 
